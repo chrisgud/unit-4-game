@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Crystal Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class='container'>
+        <div class='row'>
+            <div class='col'>
+                <h1>Crystal Collector Game!</h1>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-sm-6'>
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+                    total score
+                </p>
+                <p>You win the game by matching your total score with the random number; you lose the game if your total score
+                    goes above the random number.</p>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the values of each crystal may change.</p>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-sm-4 p-3' id='numberTarget'>
+                Target:
+                <span id='number-to-guess'></span>
+            </div>
+            <div class='col-sm-2 p-4' id='win-lose'>
+                Wins:
+                <span id='win'>0</span>
+                <br> Losses:
+                <span id='loss'>0</span>
+            </div>
+        </div>
+        <div class='row p-5'>
+            <div class='col-sm-4' id="crystals">
+
+            </div>
+            <div class='col-sm-4'>
+                <div class='row' id='result'>
+
+                </div>
+                <div class='row' id='info'>
+
+                </div>
+            </div>
+        </div>
+        <div class='row p-3' id='userScore'>
+            <div class='col-sm-6'>
+                Player score:
+                <span id='total-score'>0</span>
+            </div>
+        </div>
+        <div class='row p-1'>Icons made by
+            <a href="http://www.freepik.com" title="Freepik">Freepik</a> from
+            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by
+            <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

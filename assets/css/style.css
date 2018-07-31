@@ -1,0 +1,22 @@
+.crystal-image {
+    width: 68px;
+    height: 68px;
+  }
+
+  #numberTarget, #userScore, #result {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  #result {
+    margin-top: -50px;
+  }
+  
+  #win-lose {
+    font-size: 1.5rem;
+  }
+
+
+  p {
+    padding:10px;
+  }
