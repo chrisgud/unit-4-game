@@ -1,4 +1,4 @@
-var targetNumber = Math.floor(Math.random() * 100) + 20;
+var targetNumber = Math.floor(Math.random() * 101) + 19;
 var counter = 0;
 var winCount = 0;
 var lossCount = 0;
@@ -19,7 +19,7 @@ for (var i = 0; i < countCrystal; i++) {
 }
 
 function resetGame() {
-    targetNumber = Math.floor(Math.random() * 100) + 20;
+    targetNumber = Math.floor(Math.random() * 101) + 19;
     $("#number-to-guess").text(targetNumber);
     for (var i = 0; i < countCrystal; i++) {
         $('#crystal' + i).attr("data-crystalvalue", Math.floor(Math.random() * 12) + 1);
